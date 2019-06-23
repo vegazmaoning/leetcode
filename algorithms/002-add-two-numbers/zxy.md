@@ -1,3 +1,4 @@
+```
 同时循环两个链表   需要考虑的边界条件是  当链表没值  但是此时的和大于10的情况
 
 
@@ -31,3 +32,4 @@ class Solution(object):
                 tmp.next = ListNode(remainder)
                 tmp = tmp.next
         return result
+```
