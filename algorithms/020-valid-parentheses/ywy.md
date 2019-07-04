@@ -1,4 +1,4 @@
-利用stack， 但空间复杂度为 O(n)
+利用stack， 但空间复杂度为 O(n), 注意边界为，第一个字符就为 ‘)]}’
 ```
 class Solution(object):
     def isValid(self, s):
